@@ -5,8 +5,14 @@ public class Main {
         int store = helperMain(2,5);
         System.out.println(store);
 
+
         Extra ex = new Extra();
         ex.print();
+
+        Extra2 ex2 = new Extra2();
+        int multipleResult = ex2.multiply(5, 5);
+        System.out.print(multipleResult);
+
 
     }
 
